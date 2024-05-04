@@ -1,6 +1,5 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css"/>
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
 </head>
 
 # Scaling the Summit
@@ -8,7 +7,7 @@
 Scaling the Summit is a third-person platformer where you play as a baby lizard trying to get off of a mountain by fixing a gondola in an abandoned village. Starting from deep within a cave, you must collect gondola parts, avoid golems, and find runes to unlock abilities inspired by real lizards. I was one of three programmers on the six person team developing this game, made using Unreal Engine 5 with Blueprints in seven weeks.
 
 ## Contributions:
-My main role in the project was to implement the gameplay mechanics of the lizard. Since Unreal already has a highly editable Blueprint template for a third person character, this meant I focused on the special abilities the lizard would have and the runes that would unlock them. The three abilities include a tongue grapple,
+My main role in the project was to implement the gameplay mechanics of the lizard. Since Unreal already has a highly editable Blueprint template for a third person character, this meant I focused on the special abilities the lizard would have and the runes that would unlock them. The three abilities include a multidirectional tongue grapple,
 
 ![grapple](grapplegif.gif)
 
@@ -32,7 +31,7 @@ Another challenge I had was getting the animations to work with Blueprints and b
 ## Architectural Diagrams
 ### Overall Structure
 
-![mainuml](UMLDiagram.drawio.png)
+![mainuml](UMLDiagram.png)
 
 ### Lizard Mechanics Structure
 
@@ -44,3 +43,5 @@ Version control might have been the hardest part of our entire development. Our 
 
 ## Lessons Learned:
 The most important lesson I learned was how to communicate and work with a larger team on a large-scale game. While learning Unreal and Blueprints was important, most of that involved trial and error and online resources, which isn't figured out the same way team coordination is. However, I would still say that figuring out Blueprints is pivotal to anyone new to Unreal, since they can be used in almost any scenario. Another important lesson was to realize when features needed to be refined and where. While I kept adding on to the mechanics I made until I was satisfied, playtesting brought up completely new issues and ideas I hadn't thought of. Accepting criticism ultimately led to a better result. I also learned just how bad Google Drive is for version control, but figured out that manually merging doesn't have many issues if you want to do it as a last resort.
+
+<footer>James Cannon</footer>
