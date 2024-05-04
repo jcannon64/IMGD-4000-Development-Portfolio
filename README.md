@@ -35,7 +35,7 @@ Another challenge I had was getting the animations to work with Blueprints and b
 
 ### Lizard Mechanics Structure
 
-![lizarduml](LizardUML.drawio.png)
+![lizarduml](LizardUML.png)
 
 ## Version Control:
 
